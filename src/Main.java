@@ -12,14 +12,10 @@ public class Main {
 
             if (todayrate > 1.15) {
                 totPounds = totPounds - 1000;
-                System.out.println("Il tasso è buono " + todayrate + " quindi adesso vendo " + "rimasti " + totPounds);
+                System.out.println("the exchange rate " + todayrate + " remained " + totPounds);
 
-            } else {
-                System.out.println("Il tasso non è buono " + todayrate + " quindi non vendo");
             }
-
         }
-
     }
 }
 
